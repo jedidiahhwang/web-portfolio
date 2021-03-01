@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import "../sass/container/container.scss";
 
-import Header from "../components/Header.js";
+import AppHeader from "../components/AppHeader.js";
 import LandingPage from "../components/LandingPage.js";
 import About from "../components/About.js";
 import Projects from "../components/Projects.js";
@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <div className="base-container">
-      <Header />
+      <AppHeader />
       <LandingPage />
       <About />
       <Projects />
