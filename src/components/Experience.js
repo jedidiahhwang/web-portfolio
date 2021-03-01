@@ -17,29 +17,29 @@ const Experience = () => {
                 </h2>
                 <h2>
                     <strong>FOCUS Engineering & Surveying</strong> // Engineering Intern
-                    <p className="subheader">Emphasis on environmental engineering and water resources</p>
+                    <p className="subheader">Site Civil Engineer and AutoCAD drafter</p>
                     <ul>
-                        <li>Multiple research reports written on sustainable materials and water engineering</li>
-                        <li>Techinical writing and communication strengths and teaching positions were acquired</li>
-                        <li>Senior project was an applied, real-world maximum water harvesting solution</li>
+                        <li>Primary duties were to draft site plans based on client needs of proposed property (commercial and residential)</li>
+                        <li>Storm Water Pollution Prevention Plans were drafted for client and local county use</li>
+                        <li>Worked closely with peers and project managers to ensure site plans were up to building code and FOCUS standards</li>
                     </ul>
                 </h2>
                 <h2>
                     <strong>University of Utah</strong> // Technical Communication Teacher's Assistant
-                    <p className="subheader">Emphasis on renewable energy systems, land management, and climate science</p>
+                    <p className="subheader">Developed technical communication coursework and tutored for Electrical Engineers</p>
                     <ul>
-                        <li>Climate change and renewable energy physics courses were prioritized</li>
-                        <li>Social justice topics such as environmental justice and environemntal racism were taught</li>
-                        <li>Senior project included drafting a land management proposal for a real nature preserve</li>
+                        <li>Using Canvas, worked with the instructor to publish assignents, grade papers, and develop a course flow</li>
+                        <li>Set aside office hours (or by request) for students regarding questions on coursework</li>
+                        <li>Graded resumes, cover letters, research articles, and presentations in IEEE format</li>
                     </ul>
                 </h2>
                 <h2>
                     <strong>Kumon of Foothill</strong> // Center Manager and Tutor
-                    <p className="subheader">Emphasis on renewable energy systems, land management, and climate science</p>
+                    <p className="subheader">Kumon reading and math grader/tutor and center flow organizer</p>
                     <ul>
-                        <li>Climate change and renewable energy physics courses were prioritized</li>
-                        <li>Social justice topics such as environmental justice and environemntal racism were taught</li>
-                        <li>Senior project included drafting a land management proposal for a real nature preserve</li>
+                        <li>Graded and tutored students in readng and math levels from basic reading and addition to advanced reading comprehension and calculus/statistics</li>
+                        <li>Promoted to center manager, requiring student supervision and communication with parents</li>
+                        <li>Data entry for student progress was required on occassion</li>
                     </ul>
                 </h2>
             </section>

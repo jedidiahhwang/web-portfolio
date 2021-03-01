@@ -25,6 +25,13 @@ const Summary = () => {
                 </article>
                 <br></br>
                 <article className="about-info-text">
+                    When I'm not coding, you'll usually catch me gaming or fawning over building new PCs. If not that, I'm 
+                    usually caught playing and writing music, watching and discussing blockbuster or indie films, religiously
+                    following Utah Jazz basketball (or the NBA in general), or hanging out with my wife, Sasha, and our dog, 
+                    Finnegan.
+                </article>
+                <br></br>
+                <article className="about-info-text">
                     Using my formal problem solving training through my traditional engineering degree, driven
                     by a foundational knowledge provided by Devmountain as well as a thirst for knowledge, I believe
                     I have proven myself as a worthy entry to the field of coding and computer science. I hope to work

@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 * {
     margin: 0;
     padding: 0;
@@ -50,7 +52,7 @@
                 margin-bottom: 5px;
               }
 
-            .contact-info-text{
+            .contact-info-text, .contact-subheader {
                 font-size: 15px;
                 font-family: ff-tisa-sans-web-pro, sans-serif;
                 font-style: normal;
@@ -74,7 +76,7 @@
                 border-color: #00C6CF;
                 border-radius: 5px;
                 background: #343536;
-                height: 50vh;
+                height: 45vh;
                 width: 45vw;
     
                 form {

@@ -8,6 +8,7 @@ import LandingPage from "../components/LandingPage.js";
 import About from "../components/About.js";
 import Projects from "../components/Projects.js";
 import Contact from "../components/Contact.js";
+import Footer from "../components/Footer.js";
 
 const Home = () => {
 
@@ -18,6 +19,7 @@ const Home = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </div>
     )
   }

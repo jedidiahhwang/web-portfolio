@@ -115,15 +115,14 @@ const Explorify = () => {
                             Using Spotify's supplied endpoints, a list of genres will be generated for a user to access. Upon selecting a genre, 
                             a primary artist will be provided along with a list of related artists. Users can then click on an artist, displaying
                             an overlay with additional information as well as a link to the artist's Spotify page.
-                            Technologies used include JavaScript, SASS, Axios, React, Express, Massive, Nodemailer, and PostgreSQL.
                     </article>
                     <br></br>
                     <span className="technologies">
-                        JavaScript | HTML | CSS | SASS | Bootstrap | React | Node.js | Express | Axios | Massive | Mapbox | D3/Nivo 
+                        JavaScript | HTML | CSS | SASS | Bootstrap | React | Node.js | Express | Axios | Massive | PostgreSQL | Nodemailer
                     </span>
                     <div className="external-links">
-                        <a href="https://github.com/jedidiahhwang/explorify" target="_blank"><button className="angled-gradient-button">GitHub Repo</button></a>
-                        <a href="https://explorify.dev/" target="_blank"><button className="angled-gradient-button">Link</button></a>
+                        <a href="https://github.com/jedidiahhwang/explorify" target="_blank"><button className="borderman btn-border">GitHub Repo</button></a>
+                        <a href="https://explorify.dev/" target="_blank"><button className="borderman btn-border">Site</button></a>
                     </div>
                 </div>
             </section>

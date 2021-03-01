@@ -44,14 +44,23 @@ const Contact = (props) => {
                 <strong>Get in touch</strong> // Let's work together!
               </h2>
               <article className="contact-info-text">
-                I'm always looking to tackle new projects and learn new technologies. If you're 
-                looking to create a simple static webpage, or maybe a project that requires a
+                Hopefully I've caught your eye by now!
+              </article>
+              <br></br>
+              <article className="contact-info-text">
+                I'm always looking to tackle new projects and learn new technologies. If you'd 
+                like to create a simple static webpage, or maybe a project that requires a
                 database, I'm always looking to take the challenge head on!
               </article>
               <br></br>
               <article className="contact-info-text">
                 Leave an email in the box to the right, whether to inquire or simply say hello!
               </article>
+              <span className="contact-subheader">Find me at the following sites below.</span>
+              <div className="button-holder">
+                <a href="https://www.linkedin.com/in/jeddy-hwang-b764611a0/" target="_blank"><button className="borderman btn-border">LinkedIn</button></a>
+                <a href="https://github.com/jedidiahhwang" target="_blank"><button className="borderman btn-border">GitHub</button></a>
+              </div>
             </div>
             <div className="column-two">
                 <div className="contact-box">
@@ -68,7 +77,7 @@ const Contact = (props) => {
                             <label for="exampleInputMessage">Message</label>
                             <textarea name="message" className="form-control message" id="exampleInputMessage" placeholder="Write a message" rows="5"/>
                         </div>
-                        <button type="submit" className="submit-button"  disabled={serverState.submitting}>
+                        <button type="submit" className="borderman btn-border"  disabled={serverState.submitting}>
                             Submit
                         </button>
                         {serverState.status && (

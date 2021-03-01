@@ -10,7 +10,8 @@ const Education = () => {
                     <strong>Devmountain</strong> // Full-Stack Student Web Developer
                     <p className="subheader">Intensive 3-month course focusing on JavaScript, HTML/CSS, and React</p>
                     <ul>
-                        <li>Two full-stack projects developed and hosted (one personal and one group)</li>
+                        <li>Explorify - A music genre expanding full-stack application taking advantage of Spotify's public API</li>
+                        <li>COVID Dashboard - A group project designed for users to easily access the latest COVID-19 data and news</li>
                         <li>Several lab exercises and unit assessments to test understanding of core concepts</li>
                         <li>Devmountain badge in progress</li>
                     </ul>
@@ -19,18 +20,18 @@ const Education = () => {
                     <strong>University of Utah</strong> // Civil and Environmental Engineering
                     <p className="subheader">Emphasis on environmental engineering and water resources</p>
                     <ul>
-                        <li>Multiple research reports written on sustainable materials and water engineering</li>
-                        <li>Techinical writing and communication strengths and teaching positions were acquired</li>
-                        <li>Senior project was an applied, real-world maximum water harvesting solution</li>
+                        <li>Multiple research reports written on sustainable materials, water engineering, and environmental engineering</li>
+                        <li>Techinical writing and communication strengths demonstrated through coursework and a teacher's assistant position</li>
+                        <li>Senior project was an applied, real-world, maximum water harvesting solution through the Salt Lake Department of Public Utilities</li>
                     </ul>
                 </h2>
                 <h2>
                     <strong>University of Utah</strong> // Environmental and Sustainability Studies
                     <p className="subheader">Emphasis on renewable energy systems, land management, and climate science</p>
                     <ul>
-                        <li>Climate change and renewable energy physics courses were prioritized</li>
-                        <li>Social justice topics such as environmental justice and environemntal racism were taught</li>
-                        <li>Senior project included drafting a land management proposal for a real nature preserve</li>
+                        <li>Climate change, renewable energy physics, and atmospheric science courses were prioritized</li>
+                        <li>Understanding of social environmental topics such as environmental justice, racism, and sociology/ethics were demonstrated through research papers</li>
+                        <li>Senior project included drafting a land management proposal for a real nature preserve near Park City, Utah</li>
                     </ul>
                 </h2>
             </section>

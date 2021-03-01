@@ -115,7 +115,7 @@ const Cinelist = () => {
                         JavaScript | HTML | CSS | React | Node.js | Express | Axios
                     </span>
                     <div className="external-links">
-                        <a href="https://github.com/jedidiahhwang/noDB-Cinelist" target="_blank"><button className="angled-gradient-button">GitHub Repo</button></a>
+                        <a href="https://github.com/jedidiahhwang/noDB-Cinelist" target="_blank"><button className="borderman btn-border">GitHub Repo</button></a>
                     </div>
                 </div>
             </section>
