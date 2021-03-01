@@ -14,7 +14,7 @@ if (typeof window !== "undefined") {
   require("smooth-scroll")('a[href*="#contact-page"]')
 }
 
-const Header = () => (
+const AppHeader = () => (
   <header className="header">
     <Link to="/#" className="tag">Home</Link>
     <Link to="/#about-page" className="tag">About</Link>
@@ -23,4 +23,4 @@ const Header = () => (
   </header>
 )
 
-export default Header
+export default AppHeader
