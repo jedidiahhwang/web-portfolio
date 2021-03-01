@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.886);
+
+    h1 {
+        margin-top: 75px;
+        font-size: 65px;
+        font-family: ff-tisa-sans-web-pro, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        color: #F4F5F7;
+    }
+
+    .contact-page {
+        display: flex;
+
+        .column-one {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            height: 60vh;
+            width: 45vw;
+
+            strong {
+                color: #00C6CF;
+                font-size: 25px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+              }
+          
+            h2 {
+                font-size: 20px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #F4F5F7;
+                margin-top: 10px;
+                margin-bottom: 5px;
+              }
+
+            .contact-info-text{
+                font-size: 15px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #F4F5F7;
+                margin-bottom: 5px;
+            }
+        }
+
+    
+        .column-two {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            height: 60vh;
+            width: 45vw;
+    
+            .contact-box {
+                border: groove;
+                border-color: #00C6CF;
+                border-radius: 5px;
+                background: #343536;
+                height: 50vh;
+                width: 45vw;
+    
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 60vh;
+                    width: 45vw;
+                    margin-top: -100px;
+    
+                    .form-group {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 20px;
+            
+                        label {
+                            font-family: ff-tisa-sans-web-pro, sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            color: #F4F5F7;
+                        }
+    
+                        input {
+                            width: 40vw;
+                        }
+
+                        textarea {
+                            margin: 1px;
+                            padding: 1px;
+                            width: 40vw;
+                            height: 100px;
+                            resize: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

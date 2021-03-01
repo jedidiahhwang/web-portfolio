@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.experience-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+
+    .column-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 40vw;
+        padding: 15px;
+
+        strong {
+            color: #00C6CF;
+            font-size: 25px;
+            font-family: ff-tisa-sans-web-pro, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-family: ff-tisa-sans-web-pro, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #F4F5F7;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+    
+        p {
+          font-size: 15px;
+          font-family: ff-tisa-sans-web-pro, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: #F4F5F7;
+          margin-bottom: 5px;
+        }
+
+        li {
+            font-size: 12px;
+            font-family: ff-tisa-sans-web-pro, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #F4F5F7;   
+        }
+      }
+      
+    .column-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: groove;
+        border-color: #00C6CF;
+        border-radius: 5px;
+        background: #343536;
+        height: 60vh;
+        width: 45vw;
+
+        .icon-row-one, .icon-row-two, .icon-row-three {
+            display: flex;
+            height: 100px;
+            margin: 50px 0px;
+
+            .tech-element {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 120px;
+                width: 120px;
+
+                .icon {
+                    height: 120px;
+                    width: 120px;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-family: ff-tisa-sans-web-pro, sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    color: #F4F5F7;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.886);
+}
+
+.about h1 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 65px;
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #F4F5F7;
+}
+
+.about .subheader-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 40vw;
+  margin-top: -80px;
+}
+
+.about .subheader-container .about-button {
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #F4F5F7;
+  background-color: transparent;
+  border: none;
+  padding-bottom: 2px;
+  position: relative;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.about .subheader-container .about-button::after {
+  display: block;
+  background-color: #00C6CF;
+  width: 100%;
+  left: 0;
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  content: "";
+}
+
+.about .subheader-container .about-button:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.about .about-information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  margin-top: -25px;
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.summary-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+
+    .column-one {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        padding: 25px;
+
+        strong {
+          color: #00C6CF;
+          font-size: 25px;
+          font-family: ff-tisa-sans-web-pro, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+        }
+    
+        h2 {
+          font-size: 20px;
+          font-family: ff-tisa-sans-web-pro, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          color: #F4F5F7;
+          margin-top: 10px;
+          margin-bottom: 5px;
+        }
+    
+        .about-info-text {
+          font-family: ff-tisa-sans-web-pro, sans-serif;
+          color: #F4F5F7;
+        }
+      }
+      
+      .vl {
+        border-left: 3px solid;
+        height: 55vh;
+        color: #F4F5F7;
+        margin-left: 60px;
+      }
+      
+    .column-two {
+        display: flex;
+        justify-content: space-evenly;
+        height: 60vh;
+        width: 45vw;
+        padding: 25px;
+    
+        .photo {
+          border: groove;
+          border-color: #00C6CF;
+          border-radius: 5px;
+          height: 260px;
+          width: 200px;
+          margin: auto;
+        }
+
+        .wedding {
+          height: 400px;
+          width: 260px;
+        }
+    
+        .left-side {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 20vw;
+        }
+    
+        .right-side {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 15vw;
+        }
+    }
+}

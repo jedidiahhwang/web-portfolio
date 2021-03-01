@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+
+    .tag {
+        text-decoration: none;
+        animation: text-focus-in 1s linear;
+        margin: auto;
+        font-family: ff-tisa-sans-web-pro, sans-serif;
+        color: #AEAEAE;
+    }
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+}

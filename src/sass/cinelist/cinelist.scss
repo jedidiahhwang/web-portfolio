@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cinelist-dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+
+    
+    .column-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+        width: 45vw;
+
+        .cinelist-image {
+            height: 35vh;
+            width: 40vw;
+            margin-top: 100px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-evenly;
+            width: 20vw;
+        
+            .index-indicator {
+                display: flex;
+
+                .circle {
+                    font-size: 20px;
+                    font-weight: 500;
+                    border-radius: 25px;
+                    color: #F4F5F7;
+                    margin: 0px 5px;
+                    margin-top: 5px;
+                }
+            }
+
+            #previous {
+                transform: rotate(90deg);
+                height: 30px;
+                width: 30px;
+                margin-top: 7px;
+            }
+
+            #next {
+                transform: rotate(-90deg);
+                height: 30px;
+                width: 30px;
+                margin-top: 7px;
+            }
+        }
+    }
+
+    .column-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60vh;
+        width: 45vw;
+
+        .info-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 200px;
+
+            strong {
+                color: #00C6CF;
+                font-size: 25px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                margin-top: 150px;
+            }
+        
+            h2 {
+                font-size: 20px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #F4F5F7;
+                margin-top: 150px;
+            }
+    
+            .projects-info-text {
+                font-size: 15px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #F4F5F7;
+            }
+    
+            .technologies {
+                font-size: 15px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #FAB565;
+            }
+        }
+    }
+}

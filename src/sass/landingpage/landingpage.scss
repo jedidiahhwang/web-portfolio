@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {overflow-x: hidden;}
+
+.landing-page {
+    background-image:"../images/Detail Shot.jpeg"; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 90vh;
+    width: 100vw;
+
+    #background-image {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .welcome-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        width: 100vw;
+  
+        h1 {
+            animation: text-focus-in 1s linear;
+            font-size: 75px;
+            font-family: ff-tisa-sans-web-pro, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #F4F5F7;
+        }
+    
+        .intro {
+            animation: text-focus-in 1s linear;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: #F4F5F7;
+        }
+
+        strong {
+          color: #FECC1E;
+          font-size: 25px;
+          font-family: ff-tisa-sans-web-pro, sans-serif;
+          font-style: normal;
+          font-weight: 500;
+      }
+    }
+
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  

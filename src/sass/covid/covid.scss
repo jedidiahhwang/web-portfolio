@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.covid-dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+
+    .column-one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 60vh;
+        width: 45vw;
+
+        #covid-image {
+            height: 35vh;
+            width: 40vw;
+            margin-top: 100px;
+        }
+    }
+
+    .column-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 60vh;
+        width: 45vw;
+
+        .info-container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 50px;
+
+            strong {
+                color: #00C6CF;
+                font-size: 25px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+            }
+        
+            h2 {
+                font-size: 20px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #F4F5F7;
+            }
+    
+            .projects-info-text {
+                font-size: 15px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #F4F5F7;
+            }
+    
+            .technologies {
+                font-size: 15px;
+                font-family: ff-tisa-sans-web-pro, sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                color: #FAB565;
+            }
+        }
+    }
+}
+
+.angled-gradient-button {
+    background-size: 220%;
+    box-shadow: 0 .2em .3em rgba(0, 0, 0, 0.15);
+    color: #3363ff;
+    background-color: transparent;
+    background-position: 100%;
+    border: 3px solid #3363ff;
+    text-transform: uppercase;
+    padding: 5px 13px;
+    border-radius: 3px;
+    transition: all .2s ease-out;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-image: linear-gradient(110deg, #3363ff 0%, #3363ff 50%, transparent 50%, transparent 100%);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.angled-gradient-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 .3em rgba(0, 0, 0, 0.25);
+    background-position: 0;
+    color: #fff;
+}
+
+.angled-gradient-button:active {
+    transform: translateY(-1px);
+}
