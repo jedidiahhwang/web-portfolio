@@ -45,7 +45,7 @@ const Education = () => {
                 </section>
                 <section className="bottom-side">
                     <img
-                        src={require("../images/Graduation.jpeg")}
+                        src={require("../images/Graduation.jpg")}
                         className="photo graduation"
                     />
                     <img
