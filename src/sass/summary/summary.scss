@@ -1,18 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .summary-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 40vh;
+    width: 100%;
+    min-height: 700px;
+    min-width: 1000px;
     margin-top: -20px;
 
     .column-one {
         display: flex;
         flex-direction: column;
-        width: 40vw;
+        width: 40%;
+        min-height: 500px;
+        min-width: 500px;
         padding: 25px;
 
         strong {
@@ -43,28 +44,29 @@
         border-left: 3px solid;
         height: 55vh;
         color: #F4F5F7;
-        margin-left: 60px;
       }
       
     .column-two {
         display: flex;
         justify-content: space-evenly;
         height: 60vh;
-        width: 45vw;
+        width: 40%;
+        min-height: 500px;
+        min-width: 500px;
         padding: 25px;
     
         .photo {
           border: groove;
           border-color: #00C6CF;
           border-radius: 5px;
-          height: 260px;
-          width: 200px;
+          height: 45%;
+          width: auto;
           margin: auto;
         }
 
         .wedding {
-          height: 400px;
-          width: 260px;
+          height: 60%;
+          width: auto;
         }
     
         .left-side {
@@ -82,4 +84,10 @@
           width: 15vw;
         }
     }
+}
+
+@media (max-width: 500px) {
+  .about-info-text {
+    overflow: hidden;
+  }
 }

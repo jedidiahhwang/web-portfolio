@@ -37,7 +37,9 @@ const Contact = (props) => {
 
     return (
         <section id="contact-page" className="contact">
-            <h1>Contact</h1>
+          <div className="header-container">
+              <h1>Contact</h1>
+          </div>
             <div className="contact-page">
             <div className="column-one">
               <h2>

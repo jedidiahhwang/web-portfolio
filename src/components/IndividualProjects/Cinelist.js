@@ -90,6 +90,7 @@ const Cinelist = () => {
                     </svg>
                 </div>
             </section>
+            <div className="vl"></div>
             <section className="column-two">
                 <div className="info-container">
                     <h2>

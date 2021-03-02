@@ -5,8 +5,12 @@ import "../sass/footer/footer.scss";
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>Developed by Jeddy Hwang</p>
-            <p>Built on Gatsby.js</p>
+            <p>Designed by Jeddy Hwang</p>
+            <p>Developed on Gatsby.js</p>
+            <p>Deployed on AWS Amplify</p>
+            <p>
+                Logo by <a href="https://www.instagram.com/jasonj1206/?hl=en"><strong>Jason Jiang</strong></a>
+            </p>
         </footer>
     )
 }

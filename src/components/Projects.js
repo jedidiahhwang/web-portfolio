@@ -34,7 +34,9 @@ const Projects = (props) => {
 
     return (
         <section id="projects-page" className="projects">
-            <h1>Projects</h1>
+            <div className="header-container">
+                <h1>Projects</h1>
+            </div>
             <div className="subheader-container">
                 {projectsSection === "COVID Dashboard" ?
                     <button style={highlighted} className="projects-button" onClick={covid}>COVID Dashboard</button>

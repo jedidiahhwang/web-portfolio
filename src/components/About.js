@@ -34,7 +34,9 @@ const About = (props) => {
 
     return (
         <section id="about-page" className="about">
-            <h1>About Me</h1>
+            <div className="header-container">
+                <h1>About Me</h1>
+            </div>
             <div className="subheader-container">
                 {aboutSection === "summary" ?
                     <button style={highlighted} className="about-button" onClick={summary}>Summary</button>

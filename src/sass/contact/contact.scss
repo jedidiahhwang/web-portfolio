@@ -1,26 +1,29 @@
-@import "../variables.scss";
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .contact {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    height: 90vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
+    min-height: 850px;
     background-color: rgba(0, 0, 0, 0.886);
+    overflow: hidden;
 
-    h1 {
-        margin-top: 75px;
-        font-size: 65px;
-        font-family: ff-tisa-sans-web-pro, sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        color: #F4F5F7;
+    .header-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100%;
+        margin-top: 5vh;
+
+        h1 {
+            font-size: 60px;
+            font-family: ff-tisa-sans-web-pro, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #F4F5F7;
+        }
     }
 
     .contact-page {
@@ -30,9 +33,10 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: start;
-            height: 60vh;
-            width: 45vw;
+            width: 50%;
+            min-height: 500px;
+            min-width: 500px;
+            padding: 25px;
 
             strong {
                 color: #00C6CF;
@@ -53,25 +57,26 @@
               }
 
             .contact-info-text, .contact-subheader {
-                font-size: 15px;
                 font-family: ff-tisa-sans-web-pro, sans-serif;
-                font-style: normal;
-                font-weight: 500;
                 color: #F4F5F7;
-                margin-bottom: 5px;
             }
         }
-
-    
+        
         .column-two {
             display: flex;
-            flex-direction: column;
             justify-content: center;
-            align-items: start;
+            align-items: center;
             height: 60vh;
-            width: 45vw;
+            width: 50%;
+            min-height: 500px;
+            min-width: 500px;
+            padding: 25px;
     
             .contact-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 border: groove;
                 border-color: #00C6CF;
                 border-radius: 5px;
@@ -84,15 +89,15 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    height: 60vh;
-                    width: 45vw;
-                    margin-top: -100px;
+                    height: 100%;
+                    width: auto;
     
                     .form-group {
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        margin: 20px;
+                        height: 100%;
+                        width: auto;
             
                         label {
                             font-family: ff-tisa-sans-web-pro, sans-serif;

@@ -1,16 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .footer {
     display: flex;
     flex-direction: column;
-    height: 5vh;
-    width: 100vw;
+    height: 10vh;
+    width: 100%;
     background: black;
 
-    p {
+    p{
         font-size: 10px;
         font-family: ff-tisa-sans-web-pro, sans-serif;
         font-style: normal;

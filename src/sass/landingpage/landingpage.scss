@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {overflow-x: hidden;}
 
 .landing-page {
@@ -13,13 +8,13 @@ body {overflow-x: hidden;}
     align-items: center;
     position: relative;
     top: 0;
-    height: 90vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
 
     #background-image {
       position: absolute;
       top: 0;
-      height: 100%;
+      height: 100vh;
       width: 100%;
       object-fit: cover;
     }
@@ -31,7 +26,7 @@ body {overflow-x: hidden;}
         justify-content: center;
         align-items: center;
         height: 25vh;
-        width: 100vw;
+        width: 100%;
   
         h1 {
             animation: text-focus-in 1s linear;

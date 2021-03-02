@@ -1,12 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .experience-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 40vh;
+    width: 100%;
+    min-height: 800px;
+    min-width: 1000px;
     margin-top: -20px;
 
     .column-one {
@@ -14,8 +13,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        width: 40vw;
+        width: 40%;
+        min-height: 500px;
+        min-width: 800px;
         padding: 15px;
+        overflow-y: auto;
+        overflow-x: auto;
+        z-index: 1;
 
         strong {
             color: #00C6CF;
@@ -60,11 +64,14 @@
         border-radius: 5px;
         background: #343536;
         height: 60vh;
-        width: 45vw;
+        width: auto;
+        min-height: 500px;
+        min-width: 500px;
 
         .icon-row-one, .icon-row-two, .icon-row-three {
             display: flex;
-            height: 100px;
+            height: 10vh;
+            width: auto;
             margin: 50px 0px;
 
             .tech-element {
@@ -72,16 +79,16 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                height: 120px;
-                width: 120px;
+                height: 100%;
+                width: auto;
 
                 .icon {
-                    height: 120px;
-                    width: 120px;
+                    height: 90%;
+                    width: auto;
                 }
 
                 p {
-                    font-size: 15px;
+                    font-size: 13px;
                     font-family: ff-tisa-sans-web-pro, sans-serif;
                     font-style: normal;
                     font-weight: 500;
