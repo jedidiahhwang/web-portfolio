@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "../sass/container/container.scss";
-
 import AppHeader from "../components/AppHeader.js";
 import LandingPage from "../components/LandingPage.js";
 import About from "../components/About.js";
