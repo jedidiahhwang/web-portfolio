@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react"
 
 import "../sass/landingpage/landingpage.scss";
 
-import backgroundImage from "../images/Detail Shot.jpeg";
+import backgroundImage from "../images/Detail Shot.jpg";
 
 const LandingPage = (props) => {
 
