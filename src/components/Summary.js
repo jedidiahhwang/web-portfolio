@@ -42,7 +42,7 @@ const Summary = () => {
             <section className="column-two">
                 <section className="left-side">
                     <img
-                        src={require("~../images/Wedding_1.jpeg")}
+                        src={require("../images/Wedding_1.jpeg")}
                         className="photo wedding"
                     />
                 </section>
