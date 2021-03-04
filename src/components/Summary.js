@@ -48,7 +48,7 @@ const Summary = () => {
                 </section>
                 <section className="right-side">
                     <img
-                        src={require("../images/Sasha+Me.jpg")}
+                        src={require("../images/Sasha_Me.jpg")}
                         className="photo sasha-me"
                     />
                     <img
