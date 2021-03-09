@@ -12,7 +12,7 @@ const Experience = () => {
                     <ul>
                         <li>Two full-stack projects developed and hosted (one personal and one group)</li>
                         <li>Several lab exercises and unit assessments to test understanding of core concepts</li>
-                        <li>Devmountain badge in progress</li>
+                        <li>Devmountain web developer badge awarded</li>
                     </ul>
                 </h2>
                 <h2>

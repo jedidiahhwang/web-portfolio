@@ -13,7 +13,7 @@ const Education = () => {
                         <li>Explorify - A music genre expanding full-stack application taking advantage of Spotify's public API</li>
                         <li>COVID Dashboard - A group project designed for users to easily access the latest COVID-19 data and news</li>
                         <li>Several lab exercises and unit assessments to test understanding of core concepts</li>
-                        <li>Devmountain badge in progress</li>
+                        <li>Devmountain web developer badge awarded</li>
                     </ul>
                 </h2>
                 <h2>
