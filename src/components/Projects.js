@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 import CovidDashboard from "./IndividualProjects/COVID_Dashboard.js";
 import Explorify from "./IndividualProjects/Explorify.js";
 import Cinelist from "./IndividualProjects/Cinelist.js";
+import Plutus from "./IndividualProjects/Plutus.js";
 
 import "../sass/projects/projects.scss";
 
@@ -28,6 +29,11 @@ const Projects = (props) => {
         setProjectsSection("NoDB Cinelist");
     }
 
+    const plutus = (e) => {
+        e.preventDefault();
+        setProjectsSection("plutus");
+    }
+
     const highlighted = {
         color: "#00c6cf",
     }
@@ -47,6 +53,9 @@ const Projects = (props) => {
                 {projectsSection === "NoDB Cinelist" ? 
                     <button style={highlighted} className="projects-button" onClick={nodb}>Cinelist</button>
                 : <button className="projects-button" onClick={nodb}>Cinelist</button>}
+                {projectsSection === "plutus" ?
+                    <button style={highlighted} className="projects-button" onClick={plutus}>Plutus</button>
+                : <button className="projects-button" onClick={plutus}>Plutus</button>}
             </div>
             <div className="project-information">
                 {projectsSection === "COVID Dashboard" ? 
@@ -57,6 +66,9 @@ const Projects = (props) => {
                 : null}
                 {projectsSection === "NoDB Cinelist" ? 
                     <Cinelist />
+                : null}
+                {projectsSection === "plutus" ?
+                    <Plutus />
                 : null}
             </div>
         </section>
