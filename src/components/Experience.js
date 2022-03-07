@@ -7,12 +7,21 @@ const Experience = () => {
         <div className="experience-section">
             <section className="column-one">
                 <h2>
-                    <strong>Devmountain</strong> // Full-Stack Student Web Developer
-                    <p className="subheader">Intensive 3-month course focusing on JavaScript, HTML/CSS, and React</p>
+                    <strong>Devmountain</strong> // Foundations Instructor
+                    <p className="subheader">Lead Instructor, Mentor Supervisor, and Student Support</p>
                     <ul>
-                        <li>Two full-stack projects developed and hosted (one personal and one group)</li>
-                        <li>Several lab exercises and unit assessments to test understanding of core concepts</li>
-                        <li>Devmountain web developer badge awarded</li>
+                        <li>Directly oversaw student success plans for class sizes up to 30 students</li>
+                        <li>Coordinated with managers to improve Foundations curriculum to better serve students based on feedback and experience</li>
+                        <li>Fosterd several Mentors on teaching skills, technical coding knowledge, and communication facets</li>
+                    </ul>
+                </h2>
+                <h2>
+                    <strong>Devmountain</strong> // Foundations Mentor
+                    <p className="subheader">Mentor, Instructor, and Support System</p>
+                    <ul>
+                        <li>Educated students on coding topics including (but not limited to) JavaScript, HTML/CSS, Python, SQL, and Computer Science</li>
+                        <li>Provided one-on-one queue support, answering questions on labs and assessment provided by Devmountain</li>
+                        <li>Offered mental support and resources for students throughout the bootcamp</li>
                     </ul>
                 </h2>
                 <h2>

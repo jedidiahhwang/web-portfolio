@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import Summary from "./Summary.js";
 import Education from "./Education.js";
@@ -10,6 +12,7 @@ const About = (props) => {
     const [aboutSection, setAboutSection] = useState("");
 
     useEffect(() => {
+        AOS.init();
         setAboutSection("summary");
     }, [])
 
@@ -37,7 +40,7 @@ const About = (props) => {
             <div className="header-container">
                 <h1>About Me</h1>
             </div>
-            <div className="subheader-container">
+            <div className="subheader-container" data-aos="fade-up">
                 {aboutSection === "summary" ?
                     <button style={highlighted} className="about-button" onClick={summary}>Summary</button>
                 : <button className="about-button" onClick={summary}>Summary</button>}
