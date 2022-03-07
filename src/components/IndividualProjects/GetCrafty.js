@@ -4,7 +4,7 @@ import GetCraftyImage1 from "../../images/get-crafty-homepage.png";
 // import GetCraftyImage2 from "../../images/GetCraftyImage2";
 import "../../sass/plutus/plutus.scss";
 
-const Plutus = () => {
+const GetCrafty = () => {
     return (
         <div className="plutus">
             <section className="column-one">
@@ -35,4 +35,4 @@ const Plutus = () => {
     )
 }
 
-export default Plutus
+export default GetCrafty

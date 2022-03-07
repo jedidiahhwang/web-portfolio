@@ -4,6 +4,7 @@ import CovidDashboard from "./IndividualProjects/COVID_Dashboard.js";
 import Explorify from "./IndividualProjects/Explorify.js";
 import Cinelist from "./IndividualProjects/Cinelist.js";
 import Plutus from "./IndividualProjects/Plutus.js";
+import GetCrafty from "./IndividualProjects/GetCrafty.js";
 
 import "../sass/projects/projects.scss";
 
@@ -34,6 +35,11 @@ const Projects = (props) => {
         setProjectsSection("plutus");
     }
 
+    const getcrafty = (e) => {
+        e.preventDefault();
+        setProjectsSection("Get Crafty");
+    }
+
     const highlighted = {
         color: "#00c6cf",
     }
@@ -53,9 +59,9 @@ const Projects = (props) => {
                 {projectsSection === "NoDB Cinelist" ? 
                     <button style={highlighted} className="projects-button" onClick={nodb}>Cinelist</button>
                 : <button className="projects-button" onClick={nodb}>Cinelist</button>}
-                {projectsSection === "plutus" ?
-                    <button style={highlighted} className="projects-button" onClick={plutus}>Plutus</button>
-                : <button className="projects-button" onClick={plutus}>Plutus</button>}
+                {projectsSection === "Get Crafty" ?
+                    <button style={highlighted} className="projects-button" onClick={getcrafty}>Get Crafty</button>
+                : <button className="projects-button" onClick={getcrafty}>Get Crafty</button>}
             </div>
             <div className="project-information">
                 {projectsSection === "COVID Dashboard" ? 
@@ -67,8 +73,8 @@ const Projects = (props) => {
                 {projectsSection === "NoDB Cinelist" ? 
                     <Cinelist />
                 : null}
-                {projectsSection === "plutus" ?
-                    <Plutus />
+                {projectsSection === "Get Crafty" ?
+                    <GetCrafty />
                 : null}
             </div>
         </section>
