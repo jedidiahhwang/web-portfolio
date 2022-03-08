@@ -2,7 +2,7 @@ import React from "react";
 
 import GetCraftyImage1 from "../../images/get-crafty-homepage.png";
 // // import GetCraftyImage2 from "../../images/GetCraftyImage2";
-import "../../sass/plutus/plutus.scss";
+// import "../../sass/plutus/plutus.scss";
 
 const GetCrafty = () => {
     return (
