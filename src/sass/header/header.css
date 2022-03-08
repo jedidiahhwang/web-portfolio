@@ -2,21 +2,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   height: 5vh;
   width: 100vw;
   background-color: black;
 }
 
-.header p {
+.header .tag {
+  text-decoration: none;
   -webkit-animation: text-focus-in 1s linear;
           animation: text-focus-in 1s linear;
   margin: auto;
   font-family: ff-tisa-sans-web-pro, sans-serif;
-  color: #AEAEAE;
+  color: #F4F5F7;
 }
 
 @-webkit-keyframes text-focus-in {

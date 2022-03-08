@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .education-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +7,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 40vh;
+  width: 100%;
+  min-height: 700px;
+  min-width: 1000px;
   margin-top: -20px;
 }
 
@@ -23,19 +22,33 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40vw;
-  padding: 15px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 40%;
+  min-height: 500px;
+  min-width: 500px;
 }
 
 .education-section .column-one strong {
   color: #00C6CF;
-  font-size: 20px;
+  font-size: 25px;
   font-family: ff-tisa-sans-web-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
 }
 
 .education-section .column-one h2 {
+  font-size: 20px;
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #F4F5F7;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.education-section .column-one p {
   font-size: 15px;
   font-family: ff-tisa-sans-web-pro, sans-serif;
   font-style: normal;
@@ -43,65 +56,75 @@
   color: #F4F5F7;
 }
 
-.education-section .column-one p {
-  font-size: 10px;
+.education-section .column-one li {
+  font-size: 12px;
   font-family: ff-tisa-sans-web-pro, sans-serif;
   font-style: normal;
   font-weight: 500;
   color: #F4F5F7;
 }
 
-.education-section .column-one .about-info-text {
-  font-family: 'Roboto', sans-serif;
+.education-section .vl {
+  border-left: 3px solid;
+  height: 55vh;
   color: #F4F5F7;
+  margin-left: 60px;
 }
 
 .education-section .column-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   height: 60vh;
-  width: 40vw;
+  width: 40%;
+  min-height: 500px;
+  min-width: 500px;
+  padding: 25px;
+}
+
+.education-section .column-two #setup-photo {
+  border: groove;
+  border-color: #00C6CF;
+  border-radius: 5px;
+  height: 90%;
+  width: auto;
+  margin: auto;
 }
 
 .education-section .column-two .photo {
-  height: 250px;
-  width: 200px;
-  margin: 5px;
-  border-radius: 50%;
+  border: groove;
+  border-color: #00C6CF;
+  border-radius: 5px;
+  height: 90%;
+  width: auto;
+  margin: auto;
 }
 
-.education-section .column-two .left-side {
+.education-section .column-two .top-side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 40vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 30vh;
+  width: auto;
 }
 
-.education-section .column-two .right-side {
+.education-section .column-two .bottom-side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40vw;
+  height: 30vh;
+  width: auto;
 }
 /*# sourceMappingURL=education.css.map */
