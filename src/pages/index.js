@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import AppHeader from "../components/AppHeader.js";
 import LandingPage from "../components/LandingPage.js";
@@ -12,6 +12,11 @@ const Home = () => {
 
   return (
     <div className="base-container">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Jeddy Hwang</title>
+        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+      </Helmet>
       <AppHeader />
       <LandingPage />
       <About />

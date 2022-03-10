@@ -4,7 +4,7 @@ import React, {useEffect, useState} from "react"
 import "../sass/landingpage/landingpage.scss";
 
 import backgroundImage from "../images/Detail Shot.jpg";
-import logo from "../images/JH Logo-01.png";
+import logo from "../images/JH-Logo-01.png";
 
 const LandingPage = (props) => {
 
